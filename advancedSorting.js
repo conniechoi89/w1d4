@@ -21,6 +21,10 @@ students.sort(function(a,b) {
       students["age"] > students["age"];
         return 1;
     }
+    if (nameA = nameB) {
+      students["age"] < students["age"];
+        return -1;
+    }
     return 0;
 });
 
